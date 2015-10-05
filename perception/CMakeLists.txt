@@ -52,6 +52,7 @@ catkin_package(
     moveit_occupancy_map_monitor
     moveit_pointcloud_octomap_updater_core
     moveit_semantic_world
+    moveit_mesh_filter
     ${OCTOMAP_LIBRARIES}
   CATKIN_DEPENDS
     moveit_core
